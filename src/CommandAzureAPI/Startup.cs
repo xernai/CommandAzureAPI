@@ -33,7 +33,7 @@ namespace CommandAzureAPI
             {
                  endpoints.MapGet("/", async context =>
                 {
-                     await context.Response.WriteAsync("hello world!");
+                     await context.Response.WriteAsync("Hello from online class!");
                  });
              });
         }
