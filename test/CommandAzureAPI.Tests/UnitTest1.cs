@@ -8,7 +8,7 @@ namespace CommandAzureAPI.Tests
         [Fact]
         public void Test1()
         {
-
+            Assert.Equal(true, false);
         }
     }
 }
